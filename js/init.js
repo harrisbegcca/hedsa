@@ -6,6 +6,7 @@ $(document).ready(function() {
   $('.carousel.carousel-slider').carousel({fullWidth: true});
 $('#terms').modal();
 $('.dropdown-content').dropdown();
+grecaptcha.reset();
 
 
 // Initialize Firebase
