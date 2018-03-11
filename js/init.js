@@ -53,5 +53,5 @@ function saveToDB(first_name, last_name, email, message) {
     email : email,
     message: message
   });
-  window.location.reload();
+  $('#contactbutton').attr('disabled','true');
 }
