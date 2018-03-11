@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+
+#logo {
+  height: 30px !important;
+  vertical-align: middle;
+}
+
+
+
+.hedsamain {
+  height: 43vw !important;
+  margin: 0px !important;
+  width: 100% !important;
+
+}
+
+.ucsdblue {
+  background: #273459 !important;
+}
+
+.introduction {
+  margin-top: 0px;
+  margin-left: 15px;
+  color: white;
+  font-family: 'Oxygen';
+
+}

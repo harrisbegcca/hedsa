@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen,projection">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+
+</head>
+<body>
+
+	 <nav class="nav-extended black">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center"><img src="resources/logo.png" id="logo"></img>HEDSA</a>
+      <a href="#" data-activates="menu" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+      <ul class="side-nav" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="badges.html">Charters & Bylaws</a></li>
+        <li><a href="collapsible.html">Membership</a></li>
+        <li><a href="collapsible.html">Announcements</a></li>
+        <li><a href="collapsible.html">Jobs</a></li>
+        <li><a href="collapsible.html">Join/Pay Dues</a></li>
+        <li><a href="collapsible.html">Students</a></li>
+        <li><a href="collapsible.html">Other Links</a></li>
+        <li><a href="collapsible.html">Conferences</a></li>
+        <li><a href="collapsible.html">HEDP School 2015</a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <div class="parallax-container hedsamain hide-on-small-only">
+    <div class="parallax">
+      <img src="resources/sdbg.jpg"/>
+    </div>
+    <ul class="introduction">
+      <li style="font-size: 14vw;">WELCOME TO</li>
+      <li style="font-size: 14vw; font-weight: bold;">HEDSA</li>
+    </ul>
+
+  </div>
+  <div class="carousel carousel-slider center" data-indicators="true">
+   <div class="carousel-item ucsdblue white-text" href="#one!">
+     <h2>What is HEDSA?</h2>
+     <p class="yellow-text">HEDSA was formed in 2005 to provide an organization to enable University and Small Business scientists who are working on high energy density research.</p>
+   </div>
+   <div class="carousel-item ucsdblue white-text" href="#two!">
+     <h2>What do we do?</h2>
+     <p class="yellow-text">We advocate a broad-based High Energy Density Science research program based in universities and small businesses as well as in national laboratories and large companies.</p>
+   </div>
+   <div class="carousel-item ucsdblue white-text" href="#three!">
+     <h2>How do we contribute to<br/> the global sphere?</h2>
+     <p class="yellow-text">We advocate new initiatives to maintain the health of high energy density science and the related workforce in the United States, including the formation of a High Energy Density Science Users Program</p>
+   </div>
+   <div class="carousel-item ucsdblue white-text" href="#four!">
+     <h2>What do we offer?</h2>
+     <p class="yellow-text">We provide, in addition, a Point of Contact (individual) through whom university and small business high energy density research scientists can communicate with government agencies responsible for sponsoring such research in order to facilitate the flow of information in both directions
+</p>
+   </div>
+ </div>
+<div class="container" style="padding-top: 15px;">
+  <h1 style="font-size: 30px">Contact Us</h1>
+  <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s3">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s3">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="email" type="text" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="message" type="text" class="validate" style="height: 100px">
+            <label for="message">Message</label>
+          </div>
+        </div>
+        <div class="row">
+          <p>
+          <input type="checkbox" id="check" onchange="$('#terms').modal('open');">
+          <label for="check">I agree to the Terms & Conditions</label>
+
+        </p>
+        </div>
+        <div class="row">
+          <button class="btn black white-text waves-effect waves-light">Submit</button>
+        </div>
+
+      </form>
+    </div>
+
+</div>
+
+  <!-- Modal Structure -->
+  <div id="terms" class="modal">
+    <div class="modal-content">
+      <h4>Terms and Conditions</h4>
+      <p>I will not violate the standard Internet code of conduct, and request that my message be accepted as a meaningful contribution.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green green-text btn-flat">Agree</a>
+    </div>
+  </div>
+
+
+<footer class="page-footer grey darken-4">
+  <div class="footer-copyright center black">
+Website and all contents © Copyright HEDSA 2006-2018, All rights reserved.
+</div>
+</footer>
+</body>
+
+
+
+</html>
