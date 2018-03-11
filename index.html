@@ -12,10 +12,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/init.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 
 </head>
 <body>
@@ -71,7 +73,7 @@
 <div class="container" style="padding-top: 15px;">
   <h1 style="font-size: 30px">Contact Us</h1>
   <div class="row">
-      <form class="col s12">
+      <form class="col s12" id="contactfrm" onsubmit="return false;" method="POST">
         <div class="row">
           <div class="input-field col s3">
             <input id="first_name" type="text" class="validate">
@@ -101,7 +103,10 @@
         </p>
         </div>
         <div class="row">
-          <button class="btn black white-text waves-effect waves-light">Submit</button>
+          <div class="g-recaptcha" data-sitekey="6LcbAkwUAAAAAG0pov5RiBgCQNhTgVHm9bRc0QtD"></div>
+        </div>
+        <div class="row">
+          <button type="submit" class="btn black white-text waves-effect waves-light" id="contacthome" onclick="uploaddata()">Submit</button>
         </div>
 
       </form>
