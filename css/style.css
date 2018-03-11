@@ -6,7 +6,20 @@
   vertical-align: middle;
 }
 
+* {
+  font-family: 'Work Sans';
+}
+p {
+  font-size: 16pt !important;
+}
 
+li:hover {
+  background-color: rgb(25,25,25);
+}
+
+.txti:hover {
+  background: transparent !important;
+}
 
 .hedsamain {
   height: 43vw !important;
